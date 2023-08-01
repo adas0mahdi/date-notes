@@ -5,6 +5,10 @@ import face3 from './img/face3.png';
 import face4 from './img/face4.png';
 import face5 from './img/face5.png';
 import face6 from './img/face6.png';
+import face7 from './img/face7.png';
+import face8 from './img/face8.png';
+import face9 from './img/face9.png';
+import face10 from './img/face10.png';
 
 export const person =[
     {id:'1',
@@ -35,4 +39,20 @@ export const person =[
      name: 'Waleed',
      date: '12 am',
      img:face6},
+    {id:'8',
+     name: 'Mahdi',
+     date: '5 am',
+     img:face7},
+    {id:'9',
+     name: 'Luna',
+     date: '11 am',
+     img:face8},
+    {id:'10',
+     name: 'Emmam',
+     date: '1 am',
+     img:face9},
+    {id:'11',
+     name: 'Orwa',
+     date: '5 am',
+     img:face10},
   ]

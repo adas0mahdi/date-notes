@@ -11,10 +11,32 @@
   font-family: 'Roboto', sans-serif;
 }
 .rectangle {
-  height: 600px;
+  height: 500px;
+  overflow-y: scroll; /* Enable vertical scrolling */
   border-radius: 15px;
   background-color: #f8f8f8;
   box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25);
+}
+/* Target the scrollbar of the .rectangle element */
+.rectangle::-webkit-scrollbar {
+  width: 3px; /* Set the width of the scrollbar */
+  height: 2px;
+}
+
+/* Target the track (background) of the scrollbar */
+.rectangle::-webkit-scrollbar-track {
+  background: #b10f76; /* Set the background color of the track */
+  
+}
+
+/* Target the handle (thumb) of the scrollbar */
+.rectangle::-webkit-scrollbar-thumb {
+  background: #888; /* Set the background color of the thumb */
+}
+
+/* Change the thumb color on hover */
+.rectangle::-webkit-scrollbar-thumb:hover {
+  background: #0ecd9a;
 }
 
 .btn-style {
@@ -35,3 +57,5 @@
 .border-bottom {
   border-bottom: var(--bs-border-width) var(--bs-border-style) #b20d97!important;
 }
+
+
